@@ -1,0 +1,46 @@
+
+
+.ac{
+    margin-top:8px;
+    border:1px solid gray;
+    border-radius: 10px;
+    background-color:white;
+    box-sizing:border-box;
+
+}
+
+.ac .ac-header{
+    margin:0;
+    padding:0
+}
+
+.ac .ac-trigger{
+    width:100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:block;
+    color:black;
+    text-align:left;
+    padding:10px 38px 10px 10px;
+    background-color:transparent;
+    text-decoration:none;
+    margin:0;
+    border:0;
+}
+.ac .ac-trigger::after{
+    text-align:center;
+    width:20px;
+    position:absolute;
+    right:100px;
+    top:50%;
+
+}
+.ac .ac-trigger:hover{
+    color:red
+}
+
+.ac .ac-panel{
+    overflow:hidden;
+
+}
+.ac .ac-panel .ac-matn{
+    font:15px/24px Arial,sans-serif;color:#111;padding:8px;margin:0}.ac.js-enabled .ac-panel{visibility:hidden}.ac.is-active .ac-panel{visibility:visible}.ac.is-active>.ac-header .ac-trigger::after{content:"–"}
